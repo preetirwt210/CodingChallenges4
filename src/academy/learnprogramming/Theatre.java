@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Theatre {
     private final String threatreName;
-    private List<Seat> seats=new ArrayList<>();
+    private ArrayList<Seat> seats=new ArrayList<>();
 
     public Theatre(String threatreName, int numRows, int seatsPerRow){
         this.threatreName=threatreName;
