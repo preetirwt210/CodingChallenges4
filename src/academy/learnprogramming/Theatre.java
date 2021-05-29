@@ -15,8 +15,7 @@ public class Theatre {
                 Seat seat= new Seat(row + String.format("%02d", seatNum));
                 seats.add(seat);
             }
-        }
-    }
+        } }
     public  String getThreatreName(){
         return threatreName;
     }
