@@ -33,7 +33,8 @@ public class Theatre {
             requestedSeat=seat;
              break;
             }
-        }
+
+       }
         if(requestedSeat==null){
             System.out.println("There is no seat"+ seatNumber);
              return false;
